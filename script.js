@@ -10,7 +10,7 @@
     }
 
     function clearDisplay() {
-        document.getElementById('display').value = '';
+        document.getElementById('display').value = '0';
     }
 
     function deleteLastCharacter() {
