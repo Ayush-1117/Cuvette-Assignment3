@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#3B4664;
+    margin: auto auto;
+}
+.calculator{
+    margin: 6vw 35vw;
+}
+p{
+    color: white;
+}
+.dis{
+    width: 350px;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    background-color:#181F32;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.numpad{
+    width: 350px;
+    padding: 30px 20px;
+    background-color: #252D44;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="button"] {
+    font-weight: bold;
+    border-radius: 10px;
+    width: 80vw;
+    height: 7vh;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    color:#3B4664;
+    font-size: 18px;
+    cursor: pointer;
+}
+input[id="diff"]{
+    background-color: #647299;
+    
+}
+input[id="diff-red"]{
+    background-color:#D13F30;
+}
+input[type="text"] {
+    width: calc(100% - 20px);
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #181F32;
+    border-radius: 5px;
+    border: none;
+    font-size: 40px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
